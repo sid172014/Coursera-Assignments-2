@@ -1,0 +1,112 @@
+
+* {
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+}
+.row{
+	position: absolute;
+	width: 100%;
+}
+
+#divs{
+	width: 85%;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: grey;
+	overflow: auto;
+	margin-bottom: 10px;
+	border: solid 2px black;
+
+}
+#title{
+		font-size: 20px;
+		width: 40%;
+		background-color:lightpink;
+		position: relative;
+		left: 60%;
+		color: black;
+		font-family: Helvetica;
+		text-align: center;
+		border: solid 2px black;
+		margin-top: 0;
+		border-top: 0;
+		border-right: 0;
+}
+#title2{
+	font-size: 20px;
+		width: 40%;
+		background-color:red;
+		position: relative;
+		left: 60%;
+		color: white;
+		font-family: Helvetica;
+		text-align: center;
+		border: 2px solid black;
+		margin-top: 0;
+		border-top: 0;
+		border-right: 0;
+}
+#title3{
+		font-size: 20px;
+		width: 40%;
+		background-color:yellow;
+		position: relative;
+		left: 60%;
+		margin-top: 0;
+		color: black;
+		font-family: Helvetica;
+		text-align: center;
+		border: 2px solid black;
+		border-top: 0;
+		border-right: 0;
+}
+
+
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+	}
+	.col-lg-4{
+		width: 33%;
+	}
+	
+	#text{
+		margin-left: 10px;
+		margin-right: 10px;
+		font-family: Helvetica;
+	}
+	p{
+		color: black;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6,.last{
+		float: left;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.last{
+		width: 100%;
+	}
+	#text{
+		margin-left: 10px;
+		margin-right: 10px;
+		font-family: Helvetica;
+	}
+}
+@media (max-width: 767px){
+	.col-sm-12{
+		float: left;
+		border: 1px;
+	}
+	#text{
+		margin-right: 10px;
+		margin-left: 10px;	
+		font-family: Helvetica;
+
+	}
+} 

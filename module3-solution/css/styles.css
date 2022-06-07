@@ -1,0 +1,150 @@
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 4px solid black;
+}
+.navbar{	/* This is to change the height and width of the whole navbar region */
+	min-height: 80px;
+}
+
+.navbar-brand h1{
+	color: black;
+	font-weight: bold;
+	font-family: 'Oxygen', sans-serif;
+	line-height: .75;
+	margin-top: 10px;
+
+}
+
+.navbar-toggle{		/* This is to change properties of the toggle menu icon that will appear on the top on xs screen size */
+	position: relative;
+	top: 12px;
+	right: 10px;
+	background-color: grey;
+	border: solid black;
+}
+
+.navbar-default .navbar-toggle .icon-bar{	/* This is to override the icon-bar or the dashes that appear inside the toggle menu icon */
+	background-color: black;
+	height: 3px;	/* This changes the size of the icon bar */
+}	
+
+
+/* Main content starts from here */
+
+.container h1:hover{
+	text-shadow: 4px 0px darkblue;
+}
+h1{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	color: gold;
+	text-shadow: 2px 0 gold;
+}
+h2{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	color: gold;
+	text-shadow:  2px 0px gold;
+ 	margin-top: 0px;
+}
+p{
+	font-family: 'Oxygen',sans-serif;
+	font-weight: bold;
+	color: black;
+}
+section{
+	color: white;
+}
+#some-nav{	/* This is used to change the property of the whole dropdown menu */
+	margin-top: 40px; 
+}
+
+#nav-list li{
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	border: solid 1px gold;
+	background-color: black;
+}
+#nav-list li a span:hover{
+	color: gold;
+}
+#nav-list li a{
+	padding: 10px;
+	color: black;
+
+}
+#nav-list li span{
+	color: white;
+}
+#nav-list{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#chickenTile,#porkTile,#sushiTile{
+	padding: 20px;
+	background-color: grey;
+	border: solid 4px black;
+	margin-left: 5px;
+}
+#chickenTile:hover,#porkTile:hover,#sushiTile:hover{
+	box-shadow: 0 4px 4px 4px gold;
+}
+#chickenTile h2 span:hover,#porkTile h2 span:hover,#sushiTile h2 span:hover{
+	text-shadow: 4px 0px darkblue;
+}
+.row div{
+	padding: 5px;
+}
+@media (max-width: 767px){
+	#some-nav{
+		background-color: white;
+	}
+}
+#main-content{
+	margin-bottom: 50px;
+}
+
+
+/*From here we'll design the footer of our page */
+.panel-footer{
+	background-color: grey;
+}
+.colorHeader{
+	color: gold;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.colorHeader:hover{
+	text-shadow: 2px 0px darkblue;
+}
+.row .special{
+	color: white;
+	font-weight: bold;
+}
+.row .special:hover{
+	color: red;
+}
+.row .special span{
+	display: none;
+}
+.row .special:hover span{ /* THIS IS IMPORTANT TO MAKE ELEMENTS APPEAR AND DISAPPEAR WITH HOVER ACTICE ETC EFFECT */
+	display: inline;
+}
+.container div+section{
+	color: gold;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 40px;
+}
+#writtenBy{
+	display: none;
+}
+.row section div:hover #writtenBy{
+	display: inline;
+	color: blue;
+}
+
